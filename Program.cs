@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.IO;
 
-namespace Curso_C_Sharp
+namespace ConsoleApp1
 {
     class Program
     {
@@ -253,13 +254,13 @@ namespace Curso_C_Sharp
 
             //Console.ReadKey(); 
 
-                // ------- BREAK, CONTINUE y GO TO ----------
 
+             // ------- BREAK, CONTINUE y GO TO ----------
 
             // BREAK ES FACIL Y DIRECTAMENTE CORTA LA EJECUCION
         
 
-            // CONTINUE
+            //  ------------ CONTINUE
             //for (int id = 1; id <= 10; id++)
             //{
             //    Thread.Sleep(800);
@@ -272,7 +273,7 @@ namespace Curso_C_Sharp
             //    Console.WriteLine(id);
             //}
 
-            // GO TO
+            // ------------ GO TO
             //for (int id = 1; id <= 10; id++)
             //{
             //    Thread.Sleep(800);
@@ -292,20 +293,204 @@ namespace Curso_C_Sharp
             //Console.ReadKey();
 
 
-            fasfsdfsdfsdfsdfsdf
+
+
+            // WHILE (hacer mientras que) Y DO WHILE (hacer hasta que) ------------
+
+            //bool encender = true;
+
+            //// WHILE example ------------
+            //while (encender)
+            //{
+            //    Console.WriteLine("Hola a todos!");
+            //}
+
+
+            //// DO WHILE example ------------
+            //do
+            //{
+            //    Console.WriteLine("Hola a todos!");
+            //} while (encender);
+
+            //Console.ReadKey();
+
+
+
+          // ------------ VECTORES Y MATRICES ------------
+
+
+            // ------------ VECTORES
+            //int[] numero;
+
+            //numero = new int[5];
+
+            //numero[0] = 5;
+            //numero[2] = 6;
+            //numero[4] = 7;
+
+            //foreach (int elemento in numero)
+            //{
+            //    Console.WriteLine(elemento);
+            //}
+
+            //Console.ReadKey();
+
+            // ------------ MATRICES
+
+            //int[,] numero;
+
+            //numero = new int[3, 3];
+
+            //for (int fila = 0; fila < 3; fila++)
+            //{
+            //    for (int col = 0; col < 3; col++)
+            //    {
+            //        Console.WriteLine("Dame un numero: ");
+            //        numero[fila, col] = Convert.ToInt16(Console.ReadLine());
+            //    }
+            //}
+
+            //Console.Clear();
+
+            //for (int fila = 0; fila < 3; fila++)
+            //{
+            //    for (int col = 0; col < 3; col++)
+            //    {
+            //        Console.Write(" " + numero[fila, col]); 
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //Console.ReadKey();
+
+
+            // ---------- CREAR UN ARCHIVO ------------ (sobreescribe el texto del archivo, no lo agrega)
+
+            //TextWriter archivo;
+
+            //archivo = new StreamWriter("archivo.txt");
+
+            //string mensaje;
+
+            //mensaje = Console.ReadLine();
+
+            //archivo.WriteLine(mensaje);
+
+            //archivo.Close();
+
+            //Console.Clear();
+
+            //Console.WriteLine("Se ha guardado el archivo...");
+
+            //Console.ReadKey();
+
+            // ---------- LEER UN ARCHIVO ------------
+
+            //TextReader Leer_archivo;
+
+            //Leer_archivo = new StreamReader("archivo.txt");
+
+            //Console.WriteLine(Leer_archivo.ReadToEnd());
+
+            //Leer_archivo.Close();
+
+            //Console.ReadKey();
+
+            // ------------ AGREGAR TEXTO A UN ARCHIVO ------------ (agrega texto y no lo sobreescribe)
+
+            //StreamWriter archivo = File.AppendText("archivo.txt");
+
+            //string mensaje;
+
+            //mensaje = Console.ReadLine();
+
+            //archivo.WriteLine(mensaje);
+
+            //archivo.Close();
+
+            //Console.ReadKey();
+
+            // ------------ CLASES E INSTANCIAS ------------
+
+            //Ventana calculadora = new Ventana();
+
+            //calculadora.Cerrar();
+
+            //Console.ReadKey();
+
+            // VER ABAJO LA CLASE "VENTANA" EN SI
+
+            // ------------ METODO CONSTRUCTOR Y DESTRUCTOR ------------
+
+            //Ventana2 calculadora = new Ventana2();
+
+            //calculadora.Mostrar();
+
+            //Console.ReadKey();
+
+            // VER ABAJO LA CLASE "VENTANA2" EN SI
 
          */
-
-
-
-          
-
 
 
 
 
         }
     }
+
+    //class Ventana2
+    //{
+    //    private int ancho, altura;
+    //    private string color;
+
+    //    public Ventana2()
+    //    {
+    //        ancho = 15;
+    //        altura = 20;
+    //        color = "Rojo";
+    //        Console.WriteLine("Funciona!!");
+    //    } // SIEMPRE LEE ESTE METODO PRIMERO
+
+    //    public void Mostrar()
+    //    {
+    //        Console.WriteLine("La dimension de la ventana es: " + ancho + "x" + altura + " y su color es: " + color); 
+    //    }
+
+    //    ~Ventana2()
+    //    {
+    //        System.Diagnostics.Trace.WriteLine("Se destruyeron los recursos");
+    //    }
+    //}
+
+    //class Ventana
+    //{
+    //    // ATRIBUTOS
+    //    private int ancho = 15, altura = 20;
+    //    private string color = "rojo";
+
+    //    // METODOS
+
+    //    public void Cerrar()
+    //    {
+    //        Console.WriteLine("La ventana se cerró!");
+    //    }
+
+    //    private void Minimizar() // SOLO PUEDO ACCEDER A ESTE METODO DESDE ESTA CLASE
+    //    {
+    //        Console.WriteLine("La ventana se minimizó!");
+    //    }
+
+    //    public void Maximizar()
+    //    {
+    //        Console.WriteLine("La ventana se agrandó!");
+    //    }
+        
+
+    //}
+
+
+
 }
+
 
 
