@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.IO;
+using Curso_C_Sharp;
 
 namespace ConsoleApp1
 {
@@ -430,13 +431,101 @@ namespace ConsoleApp1
 
             // VER ABAJO LA CLASE "VENTANA2" EN SI
 
+
+            // ---------- HERENCIAS ----------
+
+            //ClaseHija Herencia = new ClaseHija(); // NO ENTIENDO POR QUE ME MARCA ERROR
+
+            //Herencia.Saludar();
+
+            //Console.ReadKey();
+
+            // ---------- HERENCIAS (ejercicio 2) ----------
+
+            //Caballo Babieca = new Caballo();
+
+            //Humano Juan = new Humano();
+
+            //Gorila Copito = new Gorila();
+
+            //Babieca.galopar();
+
+            //Babieca.cuidarCrias();
+
+            //Babieca.respirar();
+
+
+            // VER CLASES MAMIFEROS, CABALLO, HUMANO, GORILA
+
+            // -------- POLIMORFISMO --------
+
+
+            //FiguraRectangulo rectangulo = new FiguraRectangulo();
+
+            //rectangulo.Area(14, 11);
+
+            //FiguraTriangulo triangulo = new FiguraTriangulo();
+
+            //triangulo.Area(12, 5);
+
+
+            // VER FIGURATRIANGULO Y FIGURARECTANGULO
+
          */
+
+
 
 
 
 
         }
     }
+
+    // ---------------  CLASES ----------------
+
+    //class Mamiferos
+    //{
+    //    public void respirar()
+    //    {
+    //        Console.WriteLine("Soy capaz de respirar");
+    //    }
+
+    //    public void cuidarCrias()
+    //    {
+    //        Console.WriteLine("Cuido de mis crias hasta que se valgan por si solas");
+    //    }
+    //}
+
+    //class Caballo : Mamiferos
+    //{
+    //    public void galopar()
+    //    {
+    //        Console.WriteLine("Soy capaz de galopar");
+    //    }
+    //}
+
+    //class Humano : Mamiferos
+    //{
+    //    public void pensar()
+    //    {
+    //        Console.WriteLine("Soy capaz de pensar");
+    //    }
+    //}
+
+    //class Gorila : Mamiferos
+    //{
+    //    public void trepar()
+    //    {
+    //        Console.WriteLine("Soy capaz de trepar");
+    //    }
+    //}
+
+
+
+
+    // ------------------------------------------------
+
+
 
     //class Ventana2
     //{
@@ -462,6 +551,12 @@ namespace ConsoleApp1
     //    }
     //}
 
+
+
+
+    // ------------------------------------------------
+
+
     //class Ventana
     //{
     //    // ATRIBUTOS
@@ -484,9 +579,11 @@ namespace ConsoleApp1
     //    {
     //        Console.WriteLine("La ventana se agrandó!");
     //    }
-        
+
 
     //}
+
+    // ------------------------------------------------
 
 
 

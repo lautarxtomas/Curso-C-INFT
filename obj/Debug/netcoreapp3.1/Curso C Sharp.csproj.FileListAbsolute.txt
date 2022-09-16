@@ -25,3 +25,17 @@ C:\Users\inft11\Desktop\Curso-C-INFT\obj\Debug\netcoreapp3.1\Curso C Sharp.cspro
 C:\Users\inft11\Desktop\Curso-C-INFT\obj\Debug\netcoreapp3.1\Curso C Sharp.dll
 C:\Users\inft11\Desktop\Curso-C-INFT\obj\Debug\netcoreapp3.1\Curso C Sharp.pdb
 C:\Users\inft11\Desktop\Curso-C-INFT\obj\Debug\netcoreapp3.1\Curso C Sharp.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.dll
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.pdb
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\bin\Debug\netcoreapp3.1\Curso C Sharp.exe
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\bin\Debug\netcoreapp3.1\Curso C Sharp.deps.json
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\bin\Debug\netcoreapp3.1\Curso C Sharp.runtimeconfig.json
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\bin\Debug\netcoreapp3.1\Curso C Sharp.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\bin\Debug\netcoreapp3.1\Curso C Sharp.dll
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\bin\Debug\netcoreapp3.1\Curso C Sharp.pdb
+C:\Users\Usuario\Desktop\INFT\Curso-C-INFT-master\obj\Debug\netcoreapp3.1\Curso C Sharp.genruntimeconfig.cache
